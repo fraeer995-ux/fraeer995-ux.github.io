@@ -4,5 +4,43 @@
     "github": "https://github.com/fraeer995-ux",
     "telegram": "https://t.me/it_industry0"
   },
-  "projects": []
+  "projects": [
+    {
+      "id": "remontpro", "category": "web", "title": "РемонтПро — сайт ремонтной компании",
+      "description": {"ru": "Сайт для привлечения заявок на ремонт: услуги, галереи интерьеров, ответы на вопросы и интерактивный расчёт сметы. Клиент выбирает площадь, тип ремонта и материалы, сразу видит стоимость и может отправить заявку с параметрами расчёта.", "en": "A renovation company website that turns visits into enquiries. Service pages, interior galleries, FAQs and an interactive quote calculator let customers choose floor area, renovation type and materials, then submit their estimate."},
+      "technologies": ["React 19", "TypeScript", "Vite", "Tailwind CSS 4", "Python", "FastAPI", "SQLAlchemy", "PostgreSQL / Neon", "Vercel"],
+      "image": "assets/images/remontpro.webp",
+      "tryIt": {"ru": "Попробуйте: измените площадь и материалы в калькуляторе, откройте галерею и отправьте тестовую заявку.", "en": "Try it: change floor area and materials, explore the galleries and submit a test enquiry."},
+      "demoNote": {"ru": "Работающее fullstack-демо на Vercel. Заявки сохраняются в базе. Компания, цены и иллюстрации вымышлены; звонка менеджера не будет.", "en": "Live full-stack demo on Vercel with database persistence. The company, prices and illustrations are fictional; no manager will call."},
+      "links": {"demo": "https://remontpro-ochre.vercel.app/"}
+    },
+    {
+      "id": "potok-crm", "category": "web", "title": "Поток — CRM для малого бизнеса",
+      "description": {"ru": "Система для команды продаж: заявки с сайта, клиентская база, канбан сделок, задачи и аналитика. Помогает видеть, на каком этапе находится клиент, кто отвечает за сделку и что нужно сделать дальше. Есть роли администратора и менеджера.", "en": "A sales workspace for small teams: website enquiries, customer records, a deal kanban, tasks and analytics. Track each customer's stage, deal owner and next action with separate administrator and manager roles."},
+      "technologies": ["React 19", "TypeScript", "Tailwind CSS 4", "TanStack Query", "dnd-kit", "Recharts", "Python", "FastAPI", "SQLAlchemy", "Alembic", "PostgreSQL / Neon", "Vercel"],
+      "image": "assets/images/potok.webp",
+      "tryIt": {"ru": "Попробуйте: выберите демо-аккаунт на входе, откройте сделку, переместите её по воронке и создайте задачу.", "en": "Try it: select a demo account on the login page, open a deal, move it through the pipeline and create a task."},
+      "demoNote": {"ru": "Работающее fullstack-демо на Vercel. Тестовые данные общие для посетителей, изменения сохраняются. Используйте вымышленные контакты.", "en": "Live full-stack demo on Vercel. Visitors share the test database and changes persist. Use fictional contact details."},
+      "links": {"demo": "https://potok-crm.vercel.app/"}
+    },
+    {
+      "id": "marketlens", "category": "parsers", "title": "MarketLens — аналитика маркетплейсов",
+      "description": {"ru": "Рабочее пространство для изучения товаров и конкурентов: каталог с фильтрами, история цен, подборки, сравнения, поисковые позиции и графики. Помогает исследовать нишу и замечать изменения в наблюдаемом ассортименте. Серверная версия включает очередь сбора, импорт и правила уведомлений.", "en": "A workspace for product and competitor research: a filterable catalogue, price history, collections, comparisons, search positions and charts. The server edition adds collection jobs, file imports and alert rules."},
+      "technologies": ["React 19", "TypeScript", "Tailwind CSS 4", "TanStack Query / Table", "Recharts", "Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "BeautifulSoup", "openpyxl"],
+      "image": "assets/images/marketlens.webp",
+      "tryIt": {"ru": "Попробуйте: отфильтруйте 40 товаров, откройте историю цены, создайте подборку, добавьте тестовый артикул и скачайте CSV или JSON.", "en": "Try it: filter 40 products, open a price history, create a collection, add a test product ID and download CSV or JSON."},
+      "demoNote": {"ru": "Браузерное демо с вымышленными товарами. Изменения сохраняются только у вас. Сбор реальных WB/Ozon не подтверждён; worker, импорт и интеграции требуют сервера.", "en": "Browser demo with fictional products and local-only changes. Live WB/Ozon collection is unverified; the worker, imports and integrations require a server."},
+      "links": {"demo": "https://fraeer995-ux.github.io/demos/marketlens/", "source": "https://github.com/fraeer995-ux/fraeer995-ux.github.io/tree/main/demo-src/marketlens"}
+    },
+    {
+      "id": "zapis", "category": "telegram", "title": "Запись — бот и Mini App барбершопа",
+      "description": {"ru": "Онлайн-запись для барбершопа: клиент выбирает услугу, мастера и свободное время, а администратор управляет календарём, услугами и записями. В полной версии Telegram-бот открывает Mini App и отправляет подтверждения и напоминания.", "en": "A barbershop booking service: clients choose a service, barber and available time while an administrator manages appointments and services. The full version uses a Telegram bot to launch the Mini App and send confirmations and reminders."},
+      "technologies": ["React 19", "TypeScript", "Tailwind CSS 4", "TanStack Query", "Python", "FastAPI", "aiogram", "SQLAlchemy", "Alembic", "PostgreSQL", "Telegram Mini Apps"],
+      "image": "assets/images/zapis.webp",
+      "tryIt": {"ru": "Попробуйте: пройдите запись от выбора услуги до подтверждения, перенесите или отмените визит и откройте админку без пароля.", "en": "Try it: complete a booking, reschedule or cancel it, then open the administrator panel without a password."},
+      "demoNote": {"ru": "Браузерное демо: записи хранятся только у вас, реальные визиты не бронируются. Авторизация Telegram, сообщения и общее расписание доступны при серверном размещении.", "en": "Browser demo: appointments stay in your browser and no real visits are booked. Telegram authentication, messages and a shared calendar require server deployment."},
+      "links": {"demo": "https://fraeer995-ux.github.io/demos/zapis/", "source": "https://github.com/fraeer995-ux/fraeer995-ux.github.io/tree/main/demo-src/zapis"}
+    }
+  ]
 }
+

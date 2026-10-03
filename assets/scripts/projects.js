@@ -30,7 +30,8 @@ export function normalizePortfolio(input) {
       continue;
     }
     seen.add(item.id);
-    projects.push({id:item.id,category:item.category,title:item.title,description:{ru:item.description.ru,en:nonempty(item.description.en) ? item.description.en : null},technologies:item.technologies,image:safeImageUrl(item.image),links:{demo:safeExternalUrl(item.links?.demo),source:safeExternalUrl(item.links?.source)}});
+    const localized = value => value && nonempty(value.ru) ? {ru:value.ru,en:nonempty(value.en) ? value.en : null} : null;
+    projects.push({id:item.id,category:item.category,title:item.title,description:{ru:item.description.ru,en:nonempty(item.description.en) ? item.description.en : null},technologies:item.technologies,image:safeImageUrl(item.image),demoNote:localized(item.demoNote),tryIt:localized(item.tryIt),links:{demo:safeExternalUrl(item.links?.demo),source:safeExternalUrl(item.links?.source)}});
   }
   return {profile:{displayName:input.profile.displayName,github:safeExternalUrl(input.profile.github),telegram:safeExternalUrl(input.profile.telegram)},projects,issues};
 }
@@ -79,6 +80,12 @@ export function createProjectSection({root, status, filters, onCardsRendered = (
       const tags = element('div',null,'project-tags');
       for (const tech of project.technologies) tags.append(element('span',tech));
       card.append(tags);
+      for (const [key, className] of [['tryIt','project-try'],['demoNote','project-demo-note']]) if (project[key]) {
+        const note = element('p',project[key][language] || project[key].ru,className);
+        note.dataset.scrambleKey = 'project:'+project.id+':'+key;
+        setLocalizedText(note,project[key],language);
+        card.append(note);
+      }
       const links = element('div',null,'project-links');
       for (const key of ['demo', 'source']) if (project.links[key]) {
         const link = label('a',key === 'demo' ? 'openProject' : 'sourceCode');

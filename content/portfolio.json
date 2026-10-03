@@ -141,34 +141,6 @@
         "demo": "https://fraeer995-ux.github.io/demos/zapis/",
         "source": "https://github.com/fraeer995-ux/fraeer995-ux.github.io/tree/main/demo-src/zapis"
       }
-    },
-    {
-      "id": "flower-shop",
-      "category": "web",
-      "title": "ДИКО — сайт цветочной мастерской",
-      "description": {
-        "ru": "Имиджевый сайт цветочной студии с выразительной типографикой, анимациями и каталогом авторских букетов. Посетитель выбирает настроение — «Люблю», «Спасибо» или «Просто так», рассматривает состав и стоимость букета и сохраняет пожелания для обсуждения с флористом.",
-        "en": "A flower studio website with expressive typography, animations and a signature bouquet catalogue. Visitors choose a mood — love, gratitude or just because — explore each bouquet and save their preferences to discuss with a florist."
-      },
-      "technologies": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Web Animations API",
-        "SVG"
-      ],
-      "image": "assets/images/flower-shop.webp",
-      "tryIt": {
-        "ru": "Попробуйте: переключите настроение, откройте описание букета, выберите его и скачайте пожелания в текстовый файл.",
-        "en": "Try it: switch the mood, open a bouquet description, choose it and download your preferences as a text file."
-      },
-      "demoNote": {
-        "ru": "Интерактивное frontend-демо. Выбор сохраняется в скачанный файл; заказ, оплата и доставка не оформляются.",
-        "en": "Interactive frontend demo. Preferences are saved as a downloaded file; no order, payment or delivery is submitted."
-      },
-      "links": {
-        "demo": "https://fraeer995-ux.github.io/demos/flower-shop/"
-      }
     }
   ]
 }

@@ -5,3 +5,8 @@
 .project-card[data-project-id="car-detail"] .project-image {
   object-position: center;
 }
+
+.project-card[data-project-id="car-detail"] .project-image {
+  aspect-ratio: 1.21;
+  object-position: center;
+}

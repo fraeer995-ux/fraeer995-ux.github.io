@@ -28,7 +28,7 @@
         "ru": "Тестовая запись работает на открытой странице. Реальный визит не бронируется, данные формы не отправляются на сервер.",
         "en": "Test bookings work on the current page. No real visit is booked and no form data is sent to a server."
       },
-      "image": "assets/images/car-detail.jpg",
+      "image": "assets/images/car-detail-cover.webp",
       "links": {
         "demo": "https://fraeer995-ux.github.io/demos/car-detail/"
       }

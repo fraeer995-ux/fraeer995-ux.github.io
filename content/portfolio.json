@@ -54,15 +54,15 @@
       ],
       "image": "assets/images/remontpro.webp",
       "tryIt": {
-        "ru": "Попробуйте: измените площадь и материалы в калькуляторе, откройте галерею и отправьте тестовую заявку.",
-        "en": "Try it: change floor area and materials, explore the galleries and submit a test enquiry."
+        "ru": "Попробуйте: измените площадь и материалы в калькуляторе, откройте галерею и пройдите пробную отправку заявки.",
+        "en": "Try it by changing the floor area and materials, exploring the gallery, and submitting a test enquiry."
       },
       "demoNote": {
-        "ru": "Работающее fullstack-демо на Vercel. Заявки сохраняются в базе. Компания, цены и иллюстрации вымышлены; звонка менеджера не будет.",
-        "en": "Live full-stack demo on Vercel with database persistence. The company, prices and illustrations are fictional; no manager will call."
+        "ru": "Демо с вымышленными ценами и иллюстрациями. Форма показывает результат отправки в браузере без сохранения контактов.",
+        "en": "Demo with fictional prices and illustrations. The form simulates submission in your browser without storing contact details."
       },
       "links": {
-        "demo": "https://remontpro-ochre.vercel.app/"
+        "demo": "https://fraeer995-ux.github.io/demos/remontpro/"
       }
     },
     {
@@ -93,11 +93,11 @@
         "en": "Try it: select a demo account on the login page, open a deal, move it through the pipeline and create a task."
       },
       "demoNote": {
-        "ru": "Работающее fullstack-демо на Vercel. Тестовые данные общие для посетителей, изменения сохраняются. Используйте вымышленные контакты.",
-        "en": "Live full-stack demo on Vercel. Visitors share the test database and changes persist. Use fictional contact details."
+        "ru": "Браузерное демо с вымышленными данными и тестовыми аккаунтами. Изменения хранятся в этой вкладке.",
+        "en": "Browser demo with fictional records and test accounts. Changes are kept in this tab."
       },
       "links": {
-        "demo": "https://potok-crm.vercel.app/"
+        "demo": "https://fraeer995-ux.github.io/demos/potok-crm/"
       }
     },
     {

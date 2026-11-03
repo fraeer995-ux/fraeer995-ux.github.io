@@ -1,0 +1,41 @@
+{
+  "name": "Car Detail",
+  "initials": "CD",
+  "descriptor": "STUDIO",
+  "logo": "",
+  "favicon": "./icons/app-icon.svg",
+  "appleTouchIcon": "./icons/apple-touch-icon.png",
+  "appIcon192": "./icons/app-icon-192.png",
+  "appIcon512": "./icons/app-icon-512.png",
+  "description": "Детейлинг салона, полировка кузова и защитные покрытия. Оставьте заявку на оценку автомобиля.",
+  "contact": {
+    "city": "Москва",
+    "address": "Москва",
+    "phone": "",
+    "email": "",
+    "hours": ""
+  },
+  "map": {
+    "longitude": 37.6177,
+    "latitude": 55.7558,
+    "zoom": 14
+  },
+  "legal": {
+    "name": "",
+    "form": "",
+    "inn": "",
+    "ogrn": "",
+    "registration": "",
+    "address": "",
+    "postalAddress": "",
+    "privacyEmail": "",
+    "responsible": "",
+    "website": "",
+    "hostingProvider": "",
+    "hostingLocation": "",
+    "technicalLogs": "",
+    "contractors": "",
+    "crossBorderTransfer": "",
+    "securityMeasures": ""
+  }
+}

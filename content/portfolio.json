@@ -28,9 +28,9 @@
         "ru": "Тестовая запись работает на открытой странице. Реальный визит не бронируется, данные формы не отправляются на сервер.",
         "en": "Test bookings work on the current page. No real visit is booked and no form data is sent to a server."
       },
-      "image": "https://car-detail-studio-demo.vercel.app/images/hero-bmw-m8.jpg",
+      "image": "assets/images/car-detail.jpg",
       "links": {
-        "demo": "https://car-detail-studio-demo.vercel.app/"
+        "demo": "https://fraeer995-ux.github.io/demos/car-detail/"
       }
     },
     {

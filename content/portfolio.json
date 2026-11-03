@@ -6,6 +6,34 @@
   },
   "projects": [
     {
+      "id": "car-detail",
+      "category": "web",
+      "title": "Car Detail — сайт детейлинг-студии",
+      "description": {
+        "ru": "Сайт детейлинг-студии с каталогом услуг, галереей автомобилей и онлайн-записью. Клиент выбирает услугу и свободное время, а в полной версии сотрудники управляют расписанием и заявками в отдельном кабинете.",
+        "en": "A car detailing studio website with a service catalogue, a car gallery and online booking. Clients pick a service and an available slot; the full version includes a staff dashboard for managing schedules and enquiries."
+      },
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Supabase",
+        "PWA"
+      ],
+      "tryIt": {
+        "ru": "Попробуйте: выберите услугу и свободное окно, пройдите тестовую запись и отмените её.",
+        "en": "Try it: choose a service and an available slot, complete a test booking, then cancel it."
+      },
+      "demoNote": {
+        "ru": "Тестовая запись работает на открытой странице. Реальный визит не бронируется, данные формы не отправляются на сервер.",
+        "en": "Test bookings work on the current page. No real visit is booked and no form data is sent to a server."
+      },
+      "image": "https://car-detail-studio-demo.vercel.app/images/hero-bmw-m8.jpg",
+      "links": {
+        "demo": "https://car-detail-studio-demo.vercel.app/"
+      }
+    },
+    {
       "id": "remontpro",
       "category": "web",
       "title": "РемонтПро — сайт ремонтной компании",
